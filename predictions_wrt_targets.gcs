@@ -1,0 +1,8 @@
+version: 1
+type: dir
+uri: gs://git-zeroknowledgediscovery-zebra-nhfild/predictions_wrt_targets
+manifest_uri: gs://git-zeroknowledgediscovery-zebra-nhfild/predictions_wrt_targets.__manifest__.tsv
+manifest_sha256: 3e7eec93b4faa1c9dc1ca0c134960ab45db6b20e384c3ed5738c966db6d07ebd
+file_count: 22
+total_bytes: 11094443
+source_repo_relpath: predictions_wrt_targets
