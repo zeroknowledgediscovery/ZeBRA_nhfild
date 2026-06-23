@@ -6,16 +6,8 @@ You can run ZeBRA for Pulmonary Hypertension using the following  API call
 # `zebra-predict-ph`
 
 
-### Single Patient Example
-
 ```
 curl -X POST -H "Content-Type: application/json" -d @AFSTDPULMO.json "https://us-central1-pkcsaas-01.cloudfunctions.net/zebra-predict-ph?api_key=63d87942b4a2d61985a377db05a35e73"
-```
-
-### Multiple patient data in file
-
-```
-curl -s -X POST -H "Content-Type: application/json" -d @sample_input.json "https://us-central1-pkcsaas-01.cloudfunctions.net/zebra-predict-adrd2026?api_key=63d87942b4a2d61985a377db05a35e73"
 ```
 
 ## Input Format
