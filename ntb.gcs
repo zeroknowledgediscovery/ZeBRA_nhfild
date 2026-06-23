@@ -1,0 +1,8 @@
+version: 1
+type: dir
+uri: gs://git-zeroknowledgediscovery-zebra-nhfild/ntb
+manifest_uri: gs://git-zeroknowledgediscovery-zebra-nhfild/ntb.__manifest__.tsv
+manifest_sha256: ecbb553364b3819722a6db19ece65c1d58ed3efcc700e9bcc9c772e0e0305e6e
+file_count: 27
+total_bytes: 13324069
+source_repo_relpath: ntb

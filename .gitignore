@@ -3,3 +3,5 @@
 # Exact managed file/directory paths are appended below.
 /predictions_wrt_targets
 !/predictions_wrt_targets.gcs
+/ntb
+!/ntb.gcs
