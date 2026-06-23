@@ -1,0 +1,8 @@
+version: 1
+type: dir
+uri: gs://git-zeroknowledgediscovery-zebra-nhfild/survival
+manifest_uri: gs://git-zeroknowledgediscovery-zebra-nhfild/survival.__manifest__.tsv
+manifest_sha256: 75071e800b78126384cfabc05ec6b380ed5e4fcd10ada397feb176502f20aade
+file_count: 284
+total_bytes: 656557622
+source_repo_relpath: survival

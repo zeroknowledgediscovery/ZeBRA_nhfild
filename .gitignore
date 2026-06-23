@@ -5,3 +5,5 @@
 !/predictions_wrt_targets.gcs
 /ntb
 !/ntb.gcs
+/survival
+!/survival.gcs
