@@ -2,7 +2,7 @@ version: 1
 type: dir
 uri: gs://git-zeroknowledgediscovery-zebra-nhfild/ILD_survival_analysis
 manifest_uri: gs://git-zeroknowledgediscovery-zebra-nhfild/ILD_survival_analysis.__manifest__.tsv
-manifest_sha256: a617ff94f97b3d51159ea0f83a4e19023575c730331582927743f5764524422e
-file_count: 847
-total_bytes: 2272400400
+manifest_sha256: a7fa65c18b6e1e818b6646b6a7ff5769e0d548361922d6f294789ba772fcd15b
+file_count: 891
+total_bytes: 2290551692
 source_repo_relpath: ILD_survival_analysis
