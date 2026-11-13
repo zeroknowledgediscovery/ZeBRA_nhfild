@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SURVIVAL SUMMARY TABLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht!]
+\centering
+\caption{Stricter threshold comparison between MarketScan and UKHC at 24 weeks for studied natural history events}
+\label{table_SURVIVAL}
+\normalfont\fontsize{11}{13}\selectfont
+
+\resizebox{\textwidth}{!}{%
+% Reduce horizontal padding to allow larger text within the page width.
+\setlength{\tabcolsep}{3pt}%
+% Local vertical padding for this table only.
+\renewcommand{\arraystretch}{1.25}%
+\setlength{\extrarowheight}{2pt}%
+\begin{tabular}{L{0.95in}lrrrrrrrr}
+\hline
+\raisebox{-0.5\height}{\textbf{Event}} & \raisebox{-0.5\height}{\textbf{Source}} & \raisebox{-0.5\height}{\textbf{\shortstack{Risk\\threshold}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Crossed\\/ total}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Crossing\\rate}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Event probability\\if crossed}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Event probability\\if never crossed}}} & \raisebox{-0.5\height}{\textbf{RR}} & \raisebox{-0.5\height}{\textbf{\shortstack{ARD\\(pp)}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Log-rank\\\textit{p}}}} \\[3pt]
+\hline
+\multirow{1}{0.95in}{\raggedright Pulmonary Hypertension} & UKHC & 0.8171 & 46 / 1,206 & 3.8\% & 37.0\% & 8.7\% & 4.24 & 28.25 & 2.09\,$\times$\,10\textsuperscript{-14} \\
+\hline
+\multirow{1}{0.95in}{\raggedright Oxygen Dependence} & UKHC & 0.8614 & 96 / 1,251 & 7.7\% & 61.5\% & 12.7\% & 4.83 & 48.73 & 2.58\,$\times$\,10\textsuperscript{-44} \\
+\hline
+\multirow{1}{0.95in}{\raggedright ARDS} & UKHC & 0.7734 & 142 / 1,215 & 11.7\% & 53.5\% & 15.9\% & 3.36 & 37.58 & 4.09\,$\times$\,10\textsuperscript{-37} \\
+\hline
+\end{tabular}%
+}
+
+\vskip 1em
+\normalfont\fontsize{10}{12}\selectfont
+\raggedright
+Event probabilities are observed proportions within 24 weeks after screening.
+Both sources use their saved stricter operating threshold (nominal specificity 99\%).
+RR: risk ratio between crossed and never-crossed groups within each source.
+ARD: absolute risk difference; pp: percentage points.
+\textit{p}: log-rank test p-value.
+\par
+\end{table}

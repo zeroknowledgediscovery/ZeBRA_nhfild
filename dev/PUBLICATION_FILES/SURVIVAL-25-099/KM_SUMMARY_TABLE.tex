@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SURVIVAL SUMMARY TABLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht!]
+\centering
+\caption{Stricter threshold comparison between MarketScan and UKHC at 24 weeks for studied natural history events}
+\label{table_SURVIVAL}
+\normalfont\fontsize{11}{13}\selectfont
+
+\resizebox{\textwidth}{!}{%
+% Reduce horizontal padding to allow larger text within the page width.
+\setlength{\tabcolsep}{3pt}%
+% Local vertical padding for this table only.
+\renewcommand{\arraystretch}{1.25}%
+\setlength{\extrarowheight}{2pt}%
+\begin{tabular}{L{0.95in}lrrrrrrrr}
+\hline
+\raisebox{-0.5\height}{\textbf{Event}} & \raisebox{-0.5\height}{\textbf{Source}} & \raisebox{-0.5\height}{\textbf{\shortstack{Risk\\threshold}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Crossed\\/ total}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Crossing\\rate}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Event probability\\if crossed}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Event probability\\if never crossed}}} & \raisebox{-0.5\height}{\textbf{RR}} & \raisebox{-0.5\height}{\textbf{\shortstack{ARD\\(pp)}}} & \raisebox{-0.5\height}{\textbf{\shortstack{Log-rank\\\textit{p}}}} \\[3pt]
+\hline
+\multirow{3}{0.95in}{\raggedright Pulmonary Hypertension} & MarketScan & 0.2482 & 832 / 18,241 & 4.6\% & 35.0\% & 3.0\% & 11.64 & 31.97 & 0 \\
+ & UKHC & 0.6099 & 78 / 1,767 & 4.4\% & 30.8\% & 8.7\% & 3.54 & 22.07 & 8.62\,$\times$\,10\textsuperscript{-18} \\
+ & UKHC & 0.6099 & 78 / 1,767 & 4.4\% & 30.8\% & 8.7\% & 3.54 & 22.07 & 8.62\,$\times$\,10\textsuperscript{-18} \\
+\hline
+\multirow{2}{0.95in}{\raggedright Oxygen Dependence} & MarketScan & 0.2035 & 774 / 17,975 & 4.3\% & 36.7\% & 1.8\% & 19.97 & 34.86 & 0 \\
+ & UKHC & 0.8166 & 184 / 1,928 & 9.5\% & 59.2\% & 12.4\% & 4.76 & 46.80 & 9.59\,$\times$\,10\textsuperscript{-85} \\
+\hline
+\multirow{2}{0.95in}{\raggedright ARDS} & MarketScan & 0.4301 & 1,479 / 18,738 & 7.9\% & 46.2\% & 8.0\% & 5.79 & 38.21 & 0 \\
+ & UKHC & 0.1868 & 37 / 1,714 & 2.2\% & 16.2\% & 1.6\% & 10.46 & 14.67 & 1.84\,$\times$\,10\textsuperscript{-10} \\
+\hline
+\end{tabular}%
+}
+
+\vskip 1em
+\normalfont\fontsize{10}{12}\selectfont
+\raggedright
+Event probabilities are observed proportions within 24 weeks after screening.
+Both sources use their saved stricter operating threshold (nominal specificity 99\%).
+RR: risk ratio between crossed and never-crossed groups within each source.
+ARD: absolute risk difference; pp: percentage points.
+\textit{p}: log-rank test p-value.
+\par
+\end{table}

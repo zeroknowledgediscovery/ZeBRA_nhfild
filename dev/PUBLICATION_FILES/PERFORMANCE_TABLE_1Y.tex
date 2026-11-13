@@ -1,0 +1,36 @@
+\begin{table}[ht!]
+\centering
+\caption{Out-of-sample prediction performance for natural history events in the MarketScan and UKHC ILD cohorts at a horizon of 1 year$^\bigstar$}
+\label{table_perf_ILD_MOVING_1Y}
+\sffamily\fontsize{9}{11}\selectfont
+\resizebox{\textwidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.25}
+\setlength{\extrarowheight}{2pt}
+\begin{tabular}{L{0.75in}|L{0.95in}|r|r|r|r|r|r}
+\hline
+Dataset & Event & AUC & Sensitivity & PPV & NPV & LR+ & LR- \\
+\hline
+\multirow{3}{0.75in}{\raggedright MarketScan} & Pulmonary Hypertension & \mbox{$0.846 \pm 0.007$} & \mbox{$0.393 \pm 0.013$} & \mbox{$0.338 \pm 0.012$} & \mbox{$0.960 \pm 0.001$} & \mbox{$7.859 \pm 0.498$} & \mbox{$0.639 \pm 0.015$} \\
+\cline{2-8}
+ & Oxygen Dependence & \mbox{$0.862 \pm 0.007$} & \mbox{$0.425 \pm 0.015$} & \mbox{$0.284 \pm 0.011$} & \mbox{$0.972 \pm 0.001$} & \mbox{$8.503 \pm 0.557$} & \mbox{$0.605 \pm 0.017$} \\
+\cline{2-8}
+ & ARDS & \mbox{$0.830 \pm 0.005$} & \mbox{$0.339 \pm 0.008$} & \mbox{$0.544 \pm 0.011$} & \mbox{$0.891 \pm 0.001$} & \mbox{$6.770 \pm 0.388$} & \mbox{$0.696 \pm 0.010$} \\
+\hline
+\multirow{3}{0.75in}{\raggedright UKHC} & Pulmonary Hypertension & \mbox{$0.769 \pm 0.044$} & \mbox{$0.294 \pm 0.101$} & \mbox{$0.496 \pm 0.102$} & \mbox{$0.890 \pm 0.021$} & \mbox{$5.890 \pm 2.025$} & \mbox{$0.743 \pm 0.107$} \\
+\cline{2-8}
+ & Oxygen Dependence & \mbox{$0.755 \pm 0.039$} & \mbox{$0.231 \pm 0.084$} & \mbox{$0.542 \pm 0.110$} & \mbox{$0.828 \pm 0.027$} & \mbox{$4.615 \pm 1.674$} & \mbox{$0.810 \pm 0.088$} \\
+\cline{2-8}
+ & ARDS & \mbox{$0.739 \pm 0.035$} & \mbox{$0.231 \pm 0.058$} & \mbox{$0.669 \pm 0.064$} & \mbox{$0.738 \pm 0.029$} & \mbox{$4.610 \pm 1.169$} & \mbox{$0.810 \pm 0.062$} \\
+\hline
+\end{tabular}%
+}
+\vskip 1em
+\fontsize{9}{10}\selectfont
+\raggedright
+$^\bigstar$ LR$+$: positive likelihood ratio, LR$-$: negative likelihood ratio, PPV: positive predictive value, NPV: negative predictive value.
+UKHC operating metrics are evaluated at FPR = 0.05 (95\% specificity) with 5,000 stratified score-level ROC bootstrap replicates; percentile 95\% intervals include estimated prevalence uncertainty for PPV and NPV.
+MarketScan operating-point intervals and AUC intervals are from zedstat's analytical calculations; both datasets use the zedstat AUC estimates.
+The $\pm$ terms denote half the corresponding 95\% confidence-interval widths. Exact UKHC percentile endpoints are provided in the companion CSV.
+\par
+\end{table}
